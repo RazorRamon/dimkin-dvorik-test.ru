@@ -1,0 +1,651 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Заголовок</title>
+	<meta name="description" content="opisanie" />
+	<meta name="keywords" content="keywords" />
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/news/rss/" />
+	
+	<!-- Подключение jQuery -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	
+	<!-- Cycle2 - Слайдер-баннер -->
+	<script type="text/javascript" src="/js/jquery.cycle2.js"></script>
+	
+	<!-- Карусель мини-изображений -->
+	<script type="text/javascript" src="/js/slider-for-element.js"></script>
+	
+	<!-- Facebox - модальное окно -->
+	<script type="text/javascript" src="/js/facebox.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('a[rel*=facebox]').facebox({
+				loading_image : '/images/facebox/loading.gif',
+				close_image   : '/images/facebox/closelabel.gif'
+			}) 
+		})
+	</script>
+  
+</head>
+<body>
+	<div class="wrap_body">
+		<header>
+			<div class="left_header">
+				<a class="link_logo" href="/">
+					<div class="logo">интернет-магазин игрушек</div>
+				</a>
+				<div class="phone">8-495<span>-221-67-55</span>8-800<span>-555-67-55</span>
+				<span>(по России бесплатно)</span></div>
+				<div class="mail">
+					<a href="mailto:zakaz@dimkin-dvorik.ru">zakaz@<span>dimkin-dvorik.ru</span></a>
+				</div>
+				
+				<div class="top_menu">
+					<ul>
+						<li class="active"><a href="#">Оптовикам</a></li>
+						<li><a href="#">Доставка и оплата</a></li>
+						<li><a href="#">Сертификаты</a></li>
+						<li><a href="#">Вакансии</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+			<div class="right_header">
+				<a href="#info" class="authorization" rel="facebox">вход</a>
+				<a href="#" class="registration">регистрация</a>
+				<div class="shortcart">
+					<a href="#">товаров: 35</a>
+					<br />сумма:
+					<br /><b>1 345 678 руб.</b>
+				</div>
+			</div>
+			<div class="clear_div">&nbsp;</div>
+			<form class="form_search" autocomplete="on" method="get" action="/" >
+				<input class='search' name="name" type="text" value="" placeholder='поиск' />
+				<input class="button_form" type="submit" value="искать" />
+			</form>
+		</header>
+<div class="wrap_main_block">
+		<div id="left_sitebar">
+			<ul class="catalog">
+				<li><a href="#">BRUDER (Германия)</a></li>
+				<li><a href="#">CARING CORNERS (Керинконерс)</a></li>
+				<li><a href="#">CHUGGINGTON (Чаггингтон)</a></li>
+				<li><a href="#">FURBY (Ферби)</a></li>
+				<li><a href="#">GROW'N UP</a></li>
+				<li><a href="#">HASBRO (Хасбро)</a></li>
+				<li><a href="#">K-MAGIC</a></li>
+				<li><a href="#">ME&DAD</a></li>
+				<li><a href="#">RAVENSBURGER пазлы</a></li>
+				<li><a href="#">SMOBY (Смоби)</a></li>
+				<li><a href="#">STATIONERY</a></li>
+				<li><a href="#">SYLVANIAN FAMILIES (Сильваниан фэмилис)</a></li>
+				<li class="active expand">
+					<a class="active" href="#">Велосипеды и самокаты</a>
+					<ul class="open">
+						<li><a href="#">3D Пазлы</a></li>
+						<li><a href="#">Аксессуары</a></li>
+						<li><a href="#">Город</a></li>
+						<li><a href="#">Декоративные</a></li>
+						<li><a href="#">Детские Пазлы</a></li>
+						<li class="active expand"><a class="selected" href="#">Животные</a></li>
+						<li><a href="#">Известные картины</a></li>
+						<li><a href="#">Исторические</a></li>
+						<li><a href="#">Карты</a></li>
+						<li><a href="#">Натюрморт</a></li>
+						<li><a href="#">Пейзажи</a></li>
+						<li><a href="#">Пазлы с видео эффектом</a></li>
+						<li><a href="#">Фэнтези</a></li>
+						<li><a href="#">Шаровые пазлы</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Герои любимых мультфильмов</a></li>
+				<li><a href="#">Горки и домики для дачи</a></li>
+				<li><a href="#">Конструкторы Meccano</a></li>
+				<li><a href="#">Любимые животные</a></li>
+				<li><a href="#">Мягкая игрушка NICI</a></li>
+				<li><a href="#">Мячи OBALL</a></li>
+				<li><a href="#">Мячи, палатки, ледянки</a></li>
+				<li><a href="#">JOHN (Джон)</a></li>
+				<li><a href="#">Настольные игры</a></li>
+				<li><a href="#">Подарочные наборы</a></li>
+				<li><a href="#">Игрушки для самых маленьких до 3-х лет</a></li>
+				<li><a href="#">Черепашки ниндзя</a></li>
+				<li><a href="#">Радиоуправляемые вертолеты</a></li>
+				<li><a href="#">Деревянная игрушка</a></li>
+				<li><a href="#">Деревянная мебель (Таиланд)</a></li>
+				<li><a href="#">Активные игры на воздухе</a></li>
+				<li><a href="#">Игрушки для девочек</a></li>
+				<li><a href="#">Игрушки для мальчиков</a></li>
+				<li><a href="#">Тачки Диснея</a></li>
+				<li><a href="#">РАСПРОДАЖА</a></li>
+			</ul>
+			<hr />
+			<h2>Новости</h2>
+			<div class="news">
+				<span>04.01.2014</span><br />
+				<a href="#">Пришел новый, 2014 год.</a><br />
+				Поздравляем всех с Новым, 2014 годом, желаем крепкого здоровья и исполнения всех желаний.
+			</div>
+			<div class="news">
+				<span>04.01.2014</span><br />
+				<a href="#">Пришел новый, 2014 год.</a><br />
+				Поздравляем всех с Новым, 2014 годом, желаем крепкого здоровья и исполнения всех желаний.
+			</div>
+			<div class="news">
+				<span>04.01.2014</span><br />
+				<a href="#">Пришел новый, 2014 год.</a><br />
+				Поздравляем всех с Новым, 2014 годом, желаем крепкого здоровья и исполнения всех желаний.
+			</div>
+			<a href="#" class="all_news">ВСЕ новости про игрушки</a>
+
+			<h2>Статьи</h2>
+			<div class="news">
+				<a href="#">Design</a><br />
+				Для юных конструкторов и изобретателей, чей возраст 8 лет и старше, французский разработчик детских креативных наборов для конструирования Meccano создал серию с говорящим названием Design (Дизайн).
+			</div>
+			<div class="news">
+				<a href="#">Multimodels</a><br />
+				Производитель детских конструкторов Meccano создал серию уникальных наборов для конструирования Multimodels, которая способствует развитию технической фантазии ребенка, пространственного и логического мышления, координации движений, усидчивости, терпения. Яркие, современные конструкторы серии Мультимодель ориентированы на детей от 8 лет.
+			</div>
+			<div class="news">
+				<a href="#">Tintin</a><br />
+				Одна из крупнейших европейских компаний по производству детских конструкторов Meccano (Франция) создала коллекционные, детализированные модели парусного судна (Licorne/unicorn), джипа (4х4) и самолета (Hydravion), которые составили серию Tintin.
+			</div>
+			<div class="news">
+				<a href="#">Spykee</a><br />
+				Компания Meccano создает не только детские конструкторы, но и роботов. Суперсовременные  роботы-шпионы из серии Spykee понравятся не только юным детективам, но и их родителям. Роботы Меккано оснащены встроенной, регулируемой камерой видеонаблюдения с ночным видением и микрофоном.
+			</div>
+			<div class="news">
+				<a href="#">Xtreme</a><br />
+				Инновационные модели Meccano представлены в серии Xtreme. Конструкторы этой серии позволяют мальчикам от 7 до 12 лет создать креативные, оригинальные внедорожники на настоящих резиновых колесах!
+			</div>
+			<div class="news">
+				<a href="#">Turbo и Tuning</a><br />
+				Конструкторы для детей Meccano из серий Turbo и Tuning (серия снята с производства) позволят мальчикам от 7 до 14 лет самостоятельно построить гоночный автомобиль, а также придать ему креативный вид, применив фантазию и гибкие детали!
+			</div>
+			<a href="#" class="all_news">ВСЕ статьи</a>
+			<div class="feedback">
+				<a href="#">читать<span>ОТЗЫВЫ</span></a>
+				или
+				<br />
+				<a href="#">оставить свой отзыв</a>
+			</div>
+			<hr class="small_bottom" />
+			<div class="feedback">
+				<a href="#"><span>КОНКУРС</span><b>Silvanian Families</b></a>
+			</div>
+		</div>
+		<main>
+			<div class="slider_banner">
+				<div class="cycle-slideshow" data-cycle-prev=".prev" data-cycle-next=".next" data-cycle-fx="scrollHorz" data-cycle-timeout=3000 >
+					<img src="/images/banner-1.png">
+					<img src="/images/banner-2.png">
+					<img src="/images/banner-3.png">
+					<img src="/images/banner-4.png">
+					<img src="/images/banner-5.png">
+					<img src="/images/banner-6.png">
+					<img src="/images/banner-7.png">
+					<img src="/images/banner-8.png">
+					<img src="/images/banner-9.png">
+				</div>
+				<div class="slider_frame"></div>
+				<div class="slider_navigate">
+				    <a href="#" class="prev"><!--<img src="/images/arrow_left.png">--></a>
+				    <a href="#" class="next"><!--<img src="/images/arrow_right.png">--></a>
+				</div>			
+			</div>
+			
+			<div class="breadcrumbs"><a href="#">Sylvanian Families (Сильваниан фэмилис)</a> | <a href="#">Дома и постройки</a> | Sylvanian Families Набор «Бассейн и песочница для малышей», арт. 2636K</div>
+			
+			<h1 class="title_product">Оформление заказа</h1>
+			
+			<h2 class="title_oforml">Служба доставки</h2>
+			<div class="delivery_block">	
+				<label for="ID_DELIVERY_ID_6">
+					<input id="ID_DELIVERY_ID_6" checked="" name="DELIVERY_ID" value="6" onclick="submitForm();" type="radio">
+					<b>Доставка курьером по Москве</b><br />
+					Срок доставки  от 1 до 2 дней <br />
+					Стоимость 100 руб<br />
+				</label>
+				<label for="ID_DELIVERY_ID_9">
+					<input id="ID_DELIVERY_ID_9" name="DELIVERY_ID" value="9" onclick="submitForm();" type="radio">
+					<b>Самовывоз</b><br />
+					Стоимость 0 руб<br />
+				</label>
+			</div>			
+
+			<h1 class="title_product">Корзина</h1>
+			<div id="cart">
+				<div class="cart_title">
+					<div class="name">товар</div>
+					<div class="quantity">кол-во</div>
+					<div class="discount">скидка</div>
+					<div class="price">цена</div>
+				</div>
+				<div class="product">
+					<div class="name2">
+						<a href="#"><img src="/images/product_mini.png" /></a>
+						<div class="wrap_name">
+							<a href="#">Sylvanian Families<br />Набор «Бассейн и песочница для малышей», арт. 2636K</a>
+						</div>
+					</div>
+					<div class="quantity2"><input type="text" name="quantity" maxlength="10" size="30" value="" /></div>
+					<div class="discount2">0%</div>
+					<div class="price2">1 234 руб.</div>
+					<a href="#" class="delete">удалить</a>
+				</div>
+				<div class="product">
+					<div class="name2">
+						<a href="#"><img src="/images/product_mini.png" /></a>
+						<div class="wrap_name">
+							<a href="#">Sylvanian Families<br />Набор «Бассейн и песочница для малышей», арт. 2636K</a>
+						</div>
+					</div>
+					<div class="quantity2"><input type="text" name="quantity" maxlength="10" size="30" value="" /></div>
+					<div class="discount2">0%</div>
+					<div class="price2">1 234 руб.</div>
+					<a href="#" class="delete">удалить</a>
+				</div>
+				<div class="product">
+					<div class="name2">
+						<a href="#"><img src="/images/product_mini.png" /></a>
+						<div class="wrap_name">
+							<a href="#">Sylvanian Families<br />Набор «Бассейн и песочница для малышей», арт. 2636K</a>
+						</div>
+					</div>
+					<div class="quantity2"><input type="text" name="quantity" maxlength="10" size="30" value="" /></div>
+					<div class="discount2">0%</div>
+					<div class="price2">1 234 руб.</div>
+					<a href="#" class="delete">удалить</a>
+				</div>
+				<div class="cart_footer">
+					итого: <span>товаров —</span> 346, <span>сумма —</span> 45 678 руб.
+				</div>
+				<div class="cart_button">
+					<button class="recalculate" type="submit">пересчитать</button>
+					<button class="checkout" type="submit">оформить заказ</button>
+				</div>
+			</div>
+			<div class="clear_div">&nbsp;</div>
+
+			<h1 class="title_product">Регистрация</h1>
+			<form method="post" id="registration_form" action="/auth/?register=yes&amp;backurl=%2Fauth%2F" name="registration_form">
+				<label for="USER_LAST_NAME">Имя <input type="text" name="USER_NAME" maxlength="50" size="30" value="" /></label>
+				
+				<label for="USER_LAST_NAME">Фамилия <input type="text" name="USER_LAST_NAME" maxlength="50" size="30" value="" /></label>
+				
+				<label for="USER_LOGIN">Логин<span class="starrequired">*</span> <input type="text" name="USER_LOGIN" maxlength="50" size="30" value="" /></label>
+				<span class="podpis">не менее 3-х символов</span>
+				
+				<label for="USER_PASSWORD">Пароль<span class="starrequired">*</span> <input type="password" name="USER_PASSWORD" maxlength="50" size="30" value="" /></label>
+				<span class="podpis">не менее 6-ти символов</span>
+				
+				<label for="USER_CONFIRM_PASSWORD"><span class="long_text">Подтверждение<br />пароля<span class="starrequired">*</span></span><input type="password" name="USER_CONFIRM_PASSWORD" maxlength="50" size="30" value="" /></label>
+				<div class="clear_div">&nbsp;</div>
+				<label for="USER_EMAIL">E-Mail<span class="starrequired">*</span><input type="password" name="USER_EMAIL" maxlength="255" size="30" value="" /></label>
+				<div class="long_text">
+					Введите символы на картинке<span class='starrequired'>*</span>
+				</div>
+				
+				<div class="right_part_form">
+					<input name="captcha_sid" value="0d7328f2e2cbd80b265c7c139193d4a4" type="hidden">
+					<img src="/images/capcha.png" class="capcha" alt="CAPTCHA" height="40" width="180">
+					<input kl_virtual_keyboard_secure_input="on" class="capcha" name="captcha_word" maxlength="50" value="" type="text">
+				</div>
+				<div class="clear_div">&nbsp;</div>
+				<p><span class="starrequired">*</span> &mdash; поля, обязательные для заполнения</p>
+				<button onclick="_gaq.push(['_trackEvent', 'registration', 'Ок']);" name="Register" value="" type="submit">зарегистрироваться</button>
+				
+				<p><a href="/auth/?login=yes&amp;backurl=%2Fauth%2F" rel="nofollow"><b>Авторизация</b></a></p>
+			</form>
+			
+			<h1 class="title_product">Дома и постройки</h1>
+			<div class="left_part_product">
+				<div class="product_image">
+					<a href="#">
+						<img src="/images/product_big.png" alt="" title="" />
+						<!--<span class="new-small"></span>-->
+						<!--<span class="frame_sylvanian-families"></span>-->
+						<!--<span class="frame-swing"></span>-->
+						<span class="frame-luntik"></span>
+					</a>
+				</div>
+				<div class="element-dop-pic-wrapper">
+					<div class="element-dop-pic-wrap">
+						<div class="element-dop-pic-b">
+							<div class="element-dop-pic-i gallery">
+								<a href="#" rel="img_group"><img src="/images/product_mini.png"></a>
+							</div>
+							<div class="element-dop-pic-i gallery">
+								<a href="#" rel="img_group"><img src="/images/product_mini.png"></a>
+							</div>
+							<div class="element-dop-pic-i gallery">
+								<a href="#" rel="img_group"><img src="/images/product_mini.png"></a>
+							</div>
+							<div class="element-dop-pic-i gallery">
+								<a href="#" rel="img_group"><img src="/images/product_mini.png"></a>
+							</div>
+							<div class="element-dop-pic-i gallery">
+								<a href="#" rel="img_group"><img src="/images/product_mini.png"></a>
+							</div>
+							<div class="element-dop-pic-i gallery">
+								<a href="#" rel="img_group"><img src="/images/product_mini.png"></a>
+							</div>
+						</div>
+						<div class="clear-arr">
+							<a href="javascript:void(0);" class="dop-arr dop-arr-left passive"></a>
+							<a href="javascript:void(0);" class="dop-arr dop-arr-right "></a>
+						</div>
+					</div>
+				</div>
+			    <div id="button_3d">
+					<button type="submit">смотреть</button>
+				</div>
+			</div>
+			<div class="right_part_product">
+				<div class="product_check">
+					<h2>Sylvanian Families<br />Набор «Бассейн и песочница для малышей», арт. 2636K</h2>
+					<div class="price">Цена: 1070.00 руб.</div>
+					<p class="donte_sale">временно отсутствует в продаже</p>
+					<div class="lower_count luntic">
+						<label for="count">кол-во <input name="count" size="30" type="text" value="1" placeholder="1" /></label>
+						<button type="submit">в корзину</button>
+					</div>
+				</div>
+				<div class="lower_check">
+					<div class="lower_check_left">Товар<br />сертифицирован</div>
+					<div class="lower_check_right">Доставка по России<br />Доставка по Москве — 24 часа</div>
+				</div>
+
+				<h3>Описание</h3>
+				<p>Весёлая яркая игровая площадка для малышей включает в себя: площадку с горкой, песочницу-бассейн, скамеечку, набор для песочницы, замок из песка, мяч, лейку, надувной круг.</p>
+				<p>Возраст: от 4 лет<br />
+				Размер упаковки: 15х13х6 см<br />
+				Материал: пластмасса</p>
+			</div>
+			<div class="clear_div">&nbsp;</div>
+			<div class="line_product">&nbsp;</div>
+			<h2 class="title_special_offers">Sylvanian Families</h2>
+			<div class="special_offers">
+				<div class="special_offer">
+					<div class="product_images"><img src="/images/tovar-1.jpg" /><span class="new-small"></span></div>
+					<div class="product_description_wraper">
+						<div class="product_description">
+							<p>Sylvanian Families<br />Набор «Ванная комната», арт. 2952K</p>
+							<div class="price">Цена: 1070.00 руб.</div>
+						</div>
+						<div class="block_cart">
+							<label for="count">кол-во <input name="count" size="30" type="text" value="1" placeholder="1" /></label>
+							<button type="submit">в корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="special_offer">
+					<div class="product_images"><img src="/images/tovar-2.jpg" /></div>
+					<div class="product_description_wraper">
+						<div class="product_description">
+							<p>Sylvanian Families<br />Набор «Бассейн и песочница для<br />малышей», арт. 2636K</p>
+							<div class="price">Цена: 1070.00 руб.</div>
+						</div>
+						<div class="block_cart">
+							<label for="count">кол-во <input name="count" size="30" type="text" value="1" /></label>
+							<button type="submit">в корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="special_offer">
+					<div class="product_images"><img src="/images/tovar-3.jpg" /></div>
+					<div class="product_description_wraper">
+						<div class="product_description">
+							<p>Sylvanian Families<br />Набор «Ванная комната», арт. 2952K</p>
+							<div class="price">Цена: 1070.00 руб.</div>
+						</div>
+						<div class="block_cart">
+							<label for="count">кол-во <input name="count" size="30" type="text" value="1" /></label>
+							<button type="submit">в корзину</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear_div">&nbsp;</div>
+			<h2 class="title_special_offers">CHUGGINGTON</h2>
+			<div class="special_offers">
+				<div class="special_offer">
+					<div class="product_images"><img src="/images/tovar-4.jpg" /></div>
+					<div class="product_description_wraper">
+						<div class="product_description">
+							<p>Chuggington<br />Die-Cast, Игровой набор Двухэтажное<br />депо, арт.LC54217</p>
+							<div class="price">Цена: 1070.00 руб.</div>
+						</div>
+						<div class="block_cart">
+							<label for="count">кол-во <input name="count" size="30" type="text" value="1" /></label>
+							<button type="submit">в корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="special_offer">
+					<div class="product_images"><img src="/images/tovar-5.jpg" /></div>
+					<div class="product_description_wraper">
+						<div class="product_description">
+							<p>Chuggington<br />Die-Cast, Большой игровой набор<br />Лига чемпионов, арт. LC54212</p>
+							<div class="price">Цена: 1070.00 руб.</div>
+						</div>
+						<div class="block_cart">
+							<label for="count">кол-во <input name="count" size="30" type="text" value="1" /></label>
+							<button type="submit">в корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="special_offer">
+					<div class="product_images"><img src="/images/tovar-6.jpg" /></div>
+					<div class="product_description_wraper">
+						<div class="product_description">
+							<p>Chuggington<br />Die-Cast, Игровой набор: Уилсон<br />и штормовая машина, арт. LC54220</p>
+							<div class="price">Цена: 1070.00 руб.</div>
+						</div>
+						<div class="block_cart">
+							<label for="count">кол-во <input name="count" size="30" type="text" value="1" /></label>
+							<button type="submit">в корзину</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear_div">&nbsp;</div>
+			<h2 class="title_special_offers">Sylvanian Families</h2>
+			<div class="special_offers">
+				<div class="special_offer">
+					<div class="product_images"><img src="/images/tovar-1.jpg" /></div>
+					<div class="product_description_wraper">
+						<div class="product_description">
+							<p>Sylvanian Families<br />Набор «Ванная комната», арт. 2952K</p>
+							<div class="price">Цена: 1070.00 руб.</div>
+						</div>
+						<div class="block_cart">
+							<label for="count">кол-во <input name="count" size="30" type="text" value="1" /></label>
+							<button type="submit">в корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="special_offer">
+					<div class="product_images"><img src="/images/tovar-2.jpg" /></div>
+					<div class="product_description_wraper">
+						<div class="product_description">
+							<p>Sylvanian Families<br />Набор «Бассейн и песочница для<br />малышей», арт. 2636K</p>
+							<div class="price">Цена: 1070.00 руб.</div>
+						</div>
+						<div class="block_cart">
+							<label for="count">кол-во <input name="count" size="30" type="text" value="1" /></label>
+							<button type="submit">в корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="special_offer">
+					<div class="product_images"><img src="/images/tovar-3.jpg" /></div>
+					<div class="product_description_wraper">
+						<div class="product_description">
+							<p>Sylvanian Families<br />Набор «Ванная комната», арт. 2952K</p>
+							<div class="price">Цена: 1070.00 руб.</div>
+						</div>
+						<div class="block_cart">
+							<label for="count">кол-во <input name="count" size="30" type="text" value="1" /></label>
+							<button type="submit">в корзину</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear_div">&nbsp;</div>
+			<div class="textpage">
+				<h3>Интернет-магазин детских игрушек. Купить детские игрушки для мальчиков и девочек</h3>
+				<p>Интернет магазин детских товаров «Димкин Дворик» предлагает вашему вниманию качественные игрушки для детей. В нашем магазине можно купить игрушки, проверенные на наших детях: развивающие игры, детские коврики, погремушки, различные игрушки для мальчиков и девочек всех возрастов.</p>
+				<h3>Игрушки для новорожденных и детей до года</h3>
+				<p>Если ребенок в вашей семье появился совсем недавно, вам стоит купить игрушки для самых маленьких детей (в возрасте от 0 до 3 лет). Новорожденным рекомендуем погремушки и прорезыватели от BRIGHT STARTS (Брайт Стартс) – американской компании, основная специализация которой – игрушки для детей до 3-х лет.</p>
+				<p>В нашем каталоге представлены разнообразные погремушки: от самых обычных до инновационных, изготовленных из современных материалов с применением передовых технологий. Все погремушки соответствуют требованиям педиатров. Прорезыватели BRIGHT STARTS, которые предлагает наш интернет магазин игрушек, наполнены дистиллированной водой, тогда как для продукции конкурентов наполнителем служит гель, который небезопасен для малышей.</p>
+				<h3>Развивающие коврики для малышей: в чистоте и не в обиде</h3>
+				<p>Маленькие исследователи, едва научившись ползать, спешат поскорее освоиться в квартире. Чтобы малыш не ползал по дивану, где присмотрела себе местечко ваша любимая собака, или не таскал у кошки ее любимые игрушки, наш интернет магазин игрушек предлагает вам различные детские коврики, благодаря которым малыш будет оставаться в чистоте и безопасности.</p>
+				<p>Жителям обычных квартир, где не всегда есть возможность обустроить для ребенка отдельную комнату, подойдет небольшой развивающий коврик, цена которого невысока. В случае, когда возможности не столь ограничены, можно купить развивающий коврик большего размера с подушечкой и зеркальцем, причем зеркальце совершенно безопасно для малышей.</p>
+				<p>У нас вы найдете не только развивающие коврики, но и игровые наборы для самых маленьких, включающие в себя коврик с жесткими бортиками (поначалу его можно использовать как манеж), дуги для коврика, на которых уже прикреплены погремушки, а также подушечку и дополнительный набор погремушек.</p>
+				<p>Все развивающие коврики можно спокойно стирать в любой стиральной машине, в них нет электронных датчиков и элементов. После стирки любой развивающий коврик, купить который можно в нашем магазине, не линяет, не садится и не растягивается, - в общем, выглядит как новый. Малышам и их родителям остается только радоваться хорошему качеству приобретенной у нас продукции.</p>
+				<h3>Магазин игрушек</h3>
+				<p>Любые игрушки для новорожденных и детей школьного возраста, для девочек и мальчиков можно приобрести в нашем интернет магазине игрушек. Мы принимаем заказы от 1000 руб. В зависимости от стоимости заказа варьируется и стоимость доставки – всю информацию вы сможете найти в разделе «Доставка и оплата».</p>
+				<p>В интернет магазине игрушек «Димкин дворик» проводятся различные акции, что делает процесс покупки более приятным для наших покупателей.</p>
+				<p>Все возникающие вопросы по наличию товара, доставке и акциях вы сможете получить на сайте, а также связавшись по телефону с нашими консультантами.</p>
+			</div>
+			<div class="clear_div">&nbsp;</div>
+			<h2>Статьи</h2>
+			<div class="article">
+				<a href="#">Палатки и песочницы John</a>
+				<p>На нашем сайте мы уже писали о замечательной немецкой компании John, говоря о детских гимнастических и игровых мячах, игрушках и прочих принадлежностях. Если вы уже знакомы с продукцией этой компании, можем вас порадовать: ее деятельность не ограничивается производством вышеперечисленных продуктов. John поощряет все виды активного отдыха, в том числе и на свежем воздухе, и производит всевозможные аксессуары и приспособления для того, чтобы он стал еще более приятным и интересным. К ним относятся и палатки и песочницы, о которых мы и хотим вам рассказать.</p>
+			</div>
+			<div class="article">
+				<a href="#">Sylvanian Families</a>
+				<p>Серия замечательных детских игрушек Sylvanian Families производится японской фирмой Epoch с 1985 года и под разными именами пользуется огромной популярностью как у себя на родине, так и в США, Великобритании, России и других странах мира. В 1987, 1988 и 1989 году эти малыши были удостоены звания «Toy of the Year» («Игрушка Года»). И это понятно – японские производители славятся качеством всей выпускаемой продукции, а необычный и очень приятный дизайн многим запомнился по популярным в 1990-х годах «бархатным» брелкам в виде мышат, тигрят, лисят и других животных в симпатичных разноцветных жилетках. И хотя с тех пор прошло уже много лет, флокированные (то есть покрытые «бархатным» напылением) звериные семейки все так же популярны, как и тогда.</p>
+			</div>
+			<div class="article">
+				<a href="#">HASBRO</a>
+				<p>История этого известного и всеми любимого бренда началась в 1923 году в Америке, в городке Хасбрук Хайтс, штат Нью-Джерси, когда два предприимчивых молодых человека создали компанию под названием Hassenfeld Brosers (вот вам и разгадка, что это были за молодые люди – братья Хассенфилд). Изначально она занималась текстильными отходами, но быстро переквалифицировалась на производство детской канцелярии, а впоследствии – и детских игрушек, и в 1968 году сократила название до Hasbro.</p>
+			</div>
+			<div class="article">
+				<a href="#">Chuggington</a>
+				<p>Одним из самых популярных направлений у производителей детских игрушек является производство кукол по мотивам популярного мультсериала или детского киносериала. За примерами далеко ходить не надо: раньше это были Черепашки Ниндзя, Человек-Паук, Бэтмен; сейчас это куклы Винкс, роботы Бакуган, Смурфики, Смешарики и многие другие. В их числе оказались и Паровозики из Чаггингтона – забавные герои одноименного мультсериала. Этот добрый и поучительный мультфильм просто нельзя было обойти вниманием – ведь маленьких поклонников у веселых паровозиков Коко, Брюстера и Уилсона очень и очень много! И поэтому сравнительно недавно на свет появились игрушки Chuggington.</p>
+			</div>
+			<div class="article">
+				<a href="#">Bright Starts</a>
+				<p>Bright Starts с английского языка переводится как «блестящее начало». Название говорящее – бренд занимается производством игрушек для детей, которые находятся на самом раннем этапе жизни, для самых маленьких человечков. Для них игра – важнейший путь развития, поэтому Bright Starts выпускает одни из самых красивых и интересных детских игрушек и аксессуаров, рассчитанных на малышей.</p>
+			</div>
+			<div class="article">
+				<a href="#">Chuggington</a>
+				<p>Эта линия игрушек создана по мотивам очень яркого и доброго мультсериала о паровозиках из небольшого городка под названием Чаггингтон, вышедшего в 2008 году и уже успевшего полюбиться огромному количеству детей по всему миру. Его герои – маленькие друзья-паровозики Брюстер, Коко и Уилсон. Каждый день, просыпаясь в своем депо, они спешат навстречу новым приключениям, осваивают мастерство доставки грузов в нужный час и место и попутно учатся поддерживать друг друга, совершают добрые и благородные поступки. Они умные и ответственные малыши.</p>
+			</div>
+			<div class="article">
+				<a href="#">LEGO</a>
+				<p>История культовых конструкторов LEGO насчитывает несколько десятков лет. За это время компания успела выпустить огромное количество замечательных наборов – один другого лучше. Как правило, все они различаются между собой по количеству и размеру деталей, тематике и типу самих фигурок и блоков. Это связано с огромным количеством серий, созданных за многие годы датской компанией, и пусть многие из них уже не выходят в свет, это не облегчает жизнь родителям, решившим подарить любимому ребенку один из конструкторов LEGO.</p>
+			</div>
+			<div class="article">
+				<a href="#">СМУРФЫ</a>
+				<p>История забавных голубых гномиков, которых мы сегодня знаем, как Смурфов, или Смурфиков, началась очень и очень давно. В середине XX века их придумал и нарисовал бельгийский художник Пьер Кюллифор, взявший себе псевдоним Пейо, и уже в 1958 году они были главными действующими лицами в одном из французских журналов комиксов. Кстати, в мире их зовут по-разному – Смурфы от английского The Smurfs, штрумпфы от французского Les Schtroumpfs и так далее. Но все имеют в виду одно и то же – голубых гномиков высотой в три яблока с добрыми и храбрыми сердцами. За ними постоянно охотится злой волшебник Гаргамель вместе со своим котом Азраэлем, но Смурфики всегда оказываются умнее и хитрее, и в этой сказке добро всегда побеждает зло.</p>
+			</div>
+			<div class="article">
+				<a href="#">Sylvanian Families</a>
+				<p>Sylvanian Families – это особая сказочная страна звериных семеек, где царит дружба и согласие. Как только ваш ребенок возьмет в руки одного из своих новых маленьких друзей, ему откроется целый мир, полный света, тепла, радости и уюта. Его населяют забавные лесные животные с милыми мордочками и добрыми сердцами. Между ними никогда не случается ссор или разногласий – все обитатели страны Сильваниан настолько добры и веселы, что представить их ссорящимися из-за чего-то просто невозможно! Наоборот – они благородны и всегда готовы прийти друг другу на помощь, а еще зверьки очень любят ходить в гости и самим устраивать шумные увлекательные вечеринки, на которых обязательно должны быть все-все друзья и соседи.</p>
+			</div>
+			<div class="article">
+				<a href="#">TINY LOVE</a>
+				<p>Израильская компания Tiny Love вот уже больше 30 лет радует малышей и их родителей замечательными детскими игрушками. И делает это очень успешно – красочные многофункциональные развивающие игрушки приходятся по вкусу малышам во многих странах мира, а если доволен ребенок, значит, счастливы и мама с папой! Игрушки Tiny Love создают для малыша яркий, многозвучный и ужасно интересный уголок, с которого, с вашего одобрения, он начнет изучать огромный мир вокруг него. Игра в первые годы жизни для ребенка – самый важный и самый эффективный способ обучения, во время нее он развивается как физически, так и умственно. Именно поэтому наряду с приятным красочным дизайном, качественными материалами и привлекательными для детей деталями в игрушках продуманы и функциональные стороны.</p>
+			</div>
+			<div class="clear_div">&nbsp;</div>
+			<font class="text"><span>Статьи 1 - 20 из 78</span></font>
+			<br />
+			<font class="text">Начало&nbsp;|&nbsp;Пред.&nbsp;|			
+								<b>1</b>
+								<a href="#">2</a>
+								<a href="#">3</a>
+								<a href="#">4</a>
+								| <a href="#">След.</a>&nbsp;|
+								<a href="#">Конец</a>
+				<noindex>
+					|&nbsp;<a href="#" rel="nofollow">Все</a>
+				</noindex>
+			</font>
+			
+			<div class="clear_div">&nbsp;</div>
+		</main>
+</div>
+		<div class="clear_div">&nbsp;</div>
+		<div id="above_footer">
+			<div class="brends_title"></div>
+			<div class="brends_block">
+				<ul>
+					<li><a href="#">BRIGHT STARTS (Брайт Стартс)</a></li>
+					<li><a href="#">BRUDER (Германия) </a></li>
+					<li><a href="#">CHUGGINGTON (Чаггингтон)</a></li>
+					<li><a href="#">IM TOY</a></li>
+					<li><a href="#">K'S Kids</a></li>
+					<li><a href="#">K-Magic</a></li>
+					<li><a href="#">OUAPS</a></li>
+					<li><a href="#">SMOBY</a></li>
+					<li><a href="#">SYLVANIAN FAMILIES (Сильваниан Фэмилис)</a></li>
+					<li><a href="#">TINY LOVE</a></li>
+					<li><a href="#">TOMY</a></li>
+				</ul>
+			</div>
+			<div class="payment_methods">
+				<span>Мы принимаем к ОПЛАТЕ:</span><img src="/images/payment-1.png" /><img src="/images/payment-2.png" /><img src="/images/payment-3.png" /><img src="/images/payment-4.png" /><img src="/images/payment-5.png" /><img src="/images/payment-6.png" /><span>По России можем ДОСТАВИТЬ:</span> <img src="/images/payment-7.png" />
+			</div>
+			<div class="deliver_block">
+				<div class="deliver">доставка: <span>понедельник — суббота</span></div>
+			</div>
+		</div>
+		<footer>
+			<div class="icons">
+				<div class="vkontakte">
+					<a href="#">
+						<img src="/images/icon_vk.png" />
+						мы в контакте
+					</a>
+				</div>
+				<div class="vkontakte blog">
+					<a href="#">
+						<img src="/images/icon_b.png" />
+						наш блог
+					</a>
+				</div>
+				<div class="sitemap">
+					<a href="#">карта сайта</a>
+				</div>
+				<img class="soc_icons" src="/images/icons.png" />
+			</div>
+			<div class="copyright">
+				интернет-магазин игрушек «ДИМКИН ДВОРИК» © 2011 - 2014<br />
+				<span>Ограничение ответственности</span>
+				<img src="/images/counter.png" />
+			</div>
+			<div class="creator"><a href="#">Создание интернет-магазина</a> ДиВиЕР</div>
+		</footer>
+	</div>
+	
+	<!-- Содержимое модального окна -->
+	<div id="info" style="display:none;">
+		<form class="form_modal" method="post" action="#">
+			<label for="login"> <input name="login" size="30" type="text" value="" placeholder='Покупатель' /></label>
+			<label for="passw"> <input name="passw" size="30" type="text" value="" placeholder='••••••••••' /></label>
+			<div class="button_field">
+				<button type="submit">войти</button>
+			</div>
+			
+			<p class="line_enter">Войти как ПОЛЬЗОВАТЕЛЬ:</p>
+			<p><img src="/images/social_networks.png" /></p>
+		</form>
+	</div>
+	
+</body>
+</html>
